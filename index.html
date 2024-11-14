@@ -556,11 +556,44 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             /* Optional: Add a shadow when fixed */
         }
+
+        /* Add this CSS for the theme toggle button */
+        .theme-toggle {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            z-index: 1001;
+            background-color: #fff;
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .theme-toggle i {
+            font-size: 18px;
+            color: #333;
+        }
+
+        /* Day and night theme styles */
+        body.day-theme {
+            background-color: #ffffff;
+            color: #000000;
+        }
+
+        body.night-theme {
+            background-color: #333333;
+            color: #ffffff;
+        }
     </style>
 </head>
 
-<body
-    class="home page-template-default page page-id-2039 gdlr-core-body woocommerce-no-js tribe-no-js kingster-body kingster-body-front kingster-full  kingster-with-sticky-navigation  kingster-blockquote-style-1 gdlr-core-link-to-lightbox">
+<body class="day-theme">
     <div class="kingster-mobile-header-wrap">
         <div class="kingster-mobile-header kingster-header-background kingster-style-slide kingster-sticky-mobile-navigation "
             id="kingster-mobile-header">
@@ -2257,7 +2290,7 @@
                                                                                         <i class="fa fa-hand-o-right pt-1 px-2"></i>
                                             <a href="assetss/notice/notice-2044663613.jpg"
                                                 target="blank">
-                                                An induction meeting for BCA (2024-27) and MCA (2024-26) is going to be held on October 23, 2024.                                            </a>
+                                                An induction meeting for BCA (2024-27) and MCA (2024-26) is going to be held on October 23, 2024.                                            </a>
                                         </li>
                                                                             <li class="d-flex py-2">
                                                                                         <i class="fa fa-hand-o-right pt-1 px-2"></i>
@@ -2347,7 +2380,7 @@
                 <div class="col-9 col-md-11 col-lg-11" style="overflow: hidden; position: relative;">
                     <div class="scroll-text12" style="white-space: nowrap; line-height:50px; font-weight:bold;">
                         <a href="images/notice.jpg" target="_blank"><span>Spot admission in Vocational and Professional
-                                course till 25th October, 2024 upto 3:00 PM.</span></a> &nbsp;&nbsp; || &nbsp;&nbsp;
+                                course till 25th October, 2024 upto 3:00 PM.</span></a> &nbsp;&nbsp; || &nbsp;&nbsp;
                         <a href="upload/important-link/pg1gaya.pdf" target="_blank"><span>First Professional P.G. Merit
                                 List 2024-2025</span></a> &nbsp;&nbsp;|| &nbsp;&nbsp;
                         <a href="upload/important-link/PGgaya2.pdf" target="_blank"><span>Second Professional P.G. Merit
@@ -2359,7 +2392,7 @@
                                 List 2024-2025</span></a> &nbsp;&nbsp; || &nbsp;&nbsp;
                         <a href="https://www.gayacollege.ac.in/images/WhatsApp%20Image%202024-10-23%20at%2018.31.38_b0a79970.jpg"
                             target="_blank"><span>Regarding on-spot admission in the session 2024-25 for self-financed,
-                                vocational and professional departments.</span></a> &nbsp;&nbsp; || &nbsp;&nbsp;
+                                vocational and professionaldepartments.</span></a> &nbsp;&nbsp; || &nbsp;&nbsp;
 
                         <a href="upload/important-link/pg1gaya.pdf" target="_blank"><span>First Professional P.G. Merit
                                 List 2024-2025</span></a> &nbsp;&nbsp;|| &nbsp;&nbsp;
@@ -2383,21 +2416,21 @@
                     </div>
                     <h3>Sri. Rajendra Vishwanath Arlekar</h3>
                     <span>
-                        Hon'ble Chancellor-cum-Governor of Bihar</span>
+                        Hon'ble Chancellor-cum-Governor of Bihar</span>
                 </div>
                 <div class="card ou">
                     <div class="ouimg" style="background-image: url('images/vicechanclerpro.jpg');">
                         <!-- Content of the card (like text or buttons) can go here if needed -->
                     </div>
                     <h3>Prof. S.P. Shahi</h3>
-                    <span>Hon'ble Vice-Chancellor Magadh University</span>
+                    <span>Hon'ble Vice-Chancellor Magadh University</span>
                 </div>
                 <div class="card ou">
                     <div class="ouimg" style="background-image: url('images/provicechancler.jpg');">
                         <!-- Content of the card (like text or buttons) can go here if needed -->
                     </div>
                     <h3>Prof. B.R.K. Sinha</h3>
-                    <span>Hon'ble Pro-Vice Chancellor Magadh University</span>
+                    <span>Hon'ble Pro-Vice Chancellor Magadh University</span>
                 </div>
                 <div class="card ou">
                     <div class="ouimg" style="background-image: url(upload/about-bg-1.jpg);">
@@ -2914,7 +2947,7 @@
                                         <p class="card-text bv1">Most of the professors are very knowledgeable and
                                             supportive. They encourage students to ask questions and offer extra help
                                             when needed. However, sometimes the focus is more on theoretical knowledge
-                                            than practical applications.</p>
+                                            than practical applications.</p>
                                         <p class="separator">—</p> <!-- Stylish separator -->
                                         <h5 class="card-title bv">Anna Kujur</h5> <!-- Name at the bottom -->
                                         <p class="card-rating bv2">⭐⭐⭐⭐⭐</p> <!-- Rating below the name -->
@@ -2930,7 +2963,7 @@
                                             positive. The teachers are helpful and explain concepts clearly. I feel that
                                             the course curriculum is well-structured, but there is a need for more
                                             interactive and modern teaching methods, especially in terms of
-                                            digital learning.</p>
+                                            digital learning.</p>
                                         <p class="separator">—</p> <!-- Stylish separator -->
                                         <h5 class="card-title bv">Sawan Abhishek</h5> <!-- Name at the bottom -->
                                         <p class="card-rating bv2">⭐⭐⭐⭐</p> <!-- Rating below the name -->
@@ -2943,8 +2976,8 @@
                                     <div class="feedback-text">
                                         <p class="card-text bv1">There are ample opportunities for students to engage in
                                             extracurricular activities. From sports to cultural programs, the college
-                                            promotes various events. It’s a great way to meet new people and develop new
-                                            skills outside the classroom.</p>
+                                            promotes various events. It's a great way to meet new people and develop new
+                                            skills outside the classroom.</p>
                                         <p class="separator">—</p> <!-- Stylish separator -->
                                         <h5 class="card-title bv">Shilpi Kumari</h5> <!-- Name at the bottom -->
                                         <p class="card-rating bv2">⭐⭐⭐⭐</p> <!-- Rating below the name -->
@@ -2958,7 +2991,7 @@
                                         <p class="card-text bv1">Most of the professors are very knowledgeable and
                                             supportive. They encourage students to ask questions and offer extra help
                                             when needed. However, sometimes the focus is more on theoretical knowledge
-                                            than practical applications.</p>
+                                            than practical applications.</p>
                                         <p class="separator">—</p> <!-- Stylish separator -->
                                         <h5 class="card-title bv">Anna Kujur</h5> <!-- Name at the bottom -->
                                         <p class="card-rating bv2">⭐⭐⭐⭐⭐</p> <!-- Rating below the name -->
@@ -2974,7 +3007,7 @@
                                             positive. The teachers are helpful and explain concepts clearly. I feel that
                                             the course curriculum is well-structured, but there is a need for more
                                             interactive and modern teaching methods, especially in terms of
-                                            digital learning.</p>
+                                            digital learning.</p>
                                         <p class="separator">—</p> <!-- Stylish separator -->
                                         <h5 class="card-title bv">Sawan Abhishek</h5> <!-- Name at the bottom -->
                                         <p class="card-rating bv2">⭐⭐⭐⭐</p> <!-- Rating below the name -->
@@ -2987,8 +3020,8 @@
                                     <div class="feedback-text">
                                         <p class="card-text bv1">There are ample opportunities for students to engage in
                                             extracurricular activities. From sports to cultural programs, the college
-                                            promotes various events. It’s a great way to meet new people and develop new
-                                            skills outside the classroom.</p>
+                                            promotes various events. It's a great way to meet new people and develop new
+                                            skills outside the classroom.</p>
                                         <p class="separator">—</p> <!-- Stylish separator -->
                                         <h5 class="card-title bv">Shilpi Kumari</h5> <!-- Name at the bottom -->
                                         <p class="card-rating bv2">⭐⭐⭐⭐</p> <!-- Rating below the name -->
@@ -3706,98 +3739,23 @@
         document.getElementsByTagName( 'head' )[ 0 ].appendChild( htmlDiv.childNodes[ 0 ] );
     } /*]]>*/
 </script>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Row Layout</title>
-    <style>.image-row1 {
-            display: flex;
-            justify-content: space-between; /* Distribute space evenly */
-            align-items: center;
-            padding: 10px;
-            background-color:  #faebd7;
-            gap: 10px; /* Margin between items */
-            flex-wrap: nowrap; /* Prevent wrapping */
-            width: 100%;
-            overflow-x: auto; /* Allow horizontal scrolling if needed */
-        }
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const themeToggle = document.getElementById("themeToggle");
+        const body = document.body;
 
-        .card24 {
-            flex: 0 1 10%; /* Prevent shrinking, allow growing, and set base width */
-            text-align: center;
-            text-decoration: none;
-            padding: 10px;
-            box-sizing: border-box;
-            margin-left: 10px; /* Adjust margin for spacing */
-            min-width: 60px; /* Set a minimum width for smaller devices */
-        }
-
-        .card24 img {
-            max-width: 100%; /* Makes image responsive */
-            height: auto; /* Maintain aspect ratio */
-            object-fit: contain;
-            border-radius: 5px;
-        }
-
-        /* Media queries for responsiveness */
-        @media (max-width: 1200px) {
-            .card24 {
-                flex: 0 1 15%; /* Adjusts width for larger tablets */
+        themeToggle.addEventListener("click", () => {
+            if (body.classList.contains("day-theme")) {
+                body.classList.remove("day-theme");
+                body.classList.add("night-theme");
+                themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+            } else {
+                body.classList.remove("night-theme");
+                body.classList.add("day-theme");
+                themeToggle.innerHTML = '<i class="fas fa-moon"></i>';
             }
-        }
-
-        @media (max-width: 992px) {
-            .card24 {
-                flex: 0 1 20%; /* Adjusts width for smaller tablets */
-            }
-        }
-
-        @media (max-width: 768px) {
-            .card24 {
-                flex: 0 1 25%; /* Adjusts width for smaller devices */
-            }
-        }
-
-        @media (max-width: 576px) {
-            .card24 {
-                flex: 0 1 30%; /* Adjusts width for mobile screens */
-                margin-left: 0; /* Remove left margin for better alignment */
-                margin-bottom: 10px; /* Add bottom margin for spacing */
-            }
-        }
-    </style>
-</head>
-<body>
-<div style="background: #faebd7;">
-    
-<div class="image-row1" >
-    <a class="card24" href="#">
-        <img src="https://www.gayacollege.ac.in/gayaimage/AICTELOGO.png" alt="AICTE Logo">
-    </a>
-    <a class="card24" href="#">
-        <img src="https://www.gayacollege.ac.in/gayaimage/NMClogo.png" alt="NMC Logo">
-    </a>
-    <a class="card24" href="#">
-        <img src="https://www.gayacollege.ac.in/gayaimage/Digital_India_logo.png" alt="Digital India Logo">
-    </a>
-    <a class="card24" href="#">
-        <img src="https://www.gayacollege.ac.in/gayaimage/NCTE_logo.png" alt="NCTE Logo">
-    </a>
-    <a class="card24" href="#">
-        <img src="https://www.gayacollege.ac.in/gayaimage/PMO_India_Logo.png" alt="PMO India Logo">
-    </a>
-    <a class="card24" href="#">
-        <img src="https://www.gayacollege.ac.in/gayaimage/RajBhawanBihar.png" alt="Raj Bhawan Bihar">
-    </a>
-    <a class="card24" href="#">
-        <img src="https://www.gayacollege.ac.in/gayaimage/swachh-bharat-logo.png" alt="Swachh Bharat Logo">
-    </a>
-</div>
-</div>
-
+        });
+    });
+</script>
 </body>
 </html>
